@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	background-color:skyblue;
+}
+.p-1{
+	background-color:black;
+	color:white;
+}
+.p-3{
+	color:red;
+}
+li:first-child,li:last-child{
+	background:white;
+}
+ul li:nth-child(even){
+	background:#708090;
+}
+li:nth-child(3){
+	background:pink;
+}
